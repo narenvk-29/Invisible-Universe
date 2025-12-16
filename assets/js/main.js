@@ -1,15 +1,31 @@
 // ============================================
-// UNREVEALED UNIVERSE - Main JavaScript
+// UNREVEALED UNIVERSE - Professional JavaScript
 // ============================================
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize all effects
     initStarField();
     initScrollAnimations();
     initNavbarScroll();
-    initParallax();
-    initGalleryHover();
+    initSmoothScroll();
+    initStatRings();
     createShootingStars();
+});
+
+// ============================================
+// MOBILE MENU TOGGLE
+// ============================================
+
+function toggleMenu() {
+    const navLinks = document.getElementById('navLinks');
+    navLinks.classList.toggle('active');
+}
+
+// Close menu when clicking a link
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        const navLinks = document.getElementById('navLinks');
+        navLinks.classList.remove('active');
+    });
 });
 
 // ============================================
@@ -32,7 +48,7 @@ function initStarField() {
 
     const ctx = canvas.getContext('2d');
     let stars = [];
-    const numStars = 200;
+    const numStars = 150;
 
     function resize() {
         canvas.width = window.innerWidth;
@@ -46,9 +62,9 @@ function initStarField() {
             stars.push({
                 x: Math.random() * canvas.width,
                 y: Math.random() * canvas.height,
-                radius: Math.random() * 1.5,
+                radius: Math.random() * 1.2 + 0.3,
                 alpha: Math.random(),
-                delta: Math.random() * 0.02 + 0.005
+                delta: Math.random() * 0.015 + 0.003
             });
         }
     }
@@ -58,7 +74,7 @@ function initStarField() {
 
         stars.forEach(star => {
             star.alpha += star.delta;
-            if (star.alpha > 1 || star.alpha < 0) {
+            if (star.alpha > 1 || star.alpha < 0.1) {
                 star.delta = -star.delta;
             }
 
@@ -88,22 +104,21 @@ function createShootingStars() {
         const star = document.createElement('div');
         star.style.cssText = `
             position: absolute;
-            width: ${50 + Math.random() * 100}px;
-            height: 2px;
+            width: ${80 + Math.random() * 120}px;
+            height: 1px;
             background: linear-gradient(90deg, white, transparent);
-            top: ${Math.random() * 50}%;
-            left: -150px;
-            transform: rotate(-45deg);
-            animation: shootingStar ${2 + Math.random() * 3}s linear forwards;
+            top: ${Math.random() * 40}%;
+            left: -200px;
+            transform: rotate(-35deg);
+            animation: shootingStar ${1.5 + Math.random() * 2}s linear forwards;
             opacity: 0;
         `;
         container.appendChild(star);
-
-        setTimeout(() => star.remove(), 5000);
+        setTimeout(() => star.remove(), 4000);
     }
 
-    // Create shooting stars periodically
-    setInterval(createStar, 4000);
+    setInterval(createStar, 5000);
+    setTimeout(createStar, 2000);
 }
 
 // ============================================
@@ -120,26 +135,19 @@ function initScrollAnimations() {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('animate-in');
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
             }
         });
     }, observerOptions);
 
-    // Observe all cards and sections
-    document.querySelectorAll('.topic-card, .gallery-item, .timeline-item, .reference-item, .team-member').forEach(el => {
+    document.querySelectorAll('.topic-card, .gallery-card, .timeline-item, .reference-item, .team-member, .detail-block').forEach(el => {
         el.style.opacity = '0';
-        el.style.transform = 'translateY(30px)';
-        el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        el.style.transform = 'translateY(20px)';
+        el.style.transition = 'opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)';
         observer.observe(el);
     });
 }
-
-// Add animation class handler
-document.addEventListener('scroll', function() {
-    document.querySelectorAll('.animate-in').forEach(el => {
-        el.style.opacity = '1';
-        el.style.transform = 'translateY(0)';
-    });
-});
 
 // ============================================
 // NAVBAR SCROLL EFFECT
@@ -154,12 +162,10 @@ function initNavbarScroll() {
     window.addEventListener('scroll', () => {
         const currentScroll = window.pageYOffset;
 
-        if (currentScroll > 100) {
-            navbar.style.background = 'rgba(10, 10, 15, 0.95)';
-            navbar.style.boxShadow = '0 4px 30px rgba(139, 92, 246, 0.2)';
+        if (currentScroll > 50) {
+            navbar.classList.add('scrolled');
         } else {
-            navbar.style.background = 'rgba(10, 10, 15, 0.8)';
-            navbar.style.boxShadow = 'none';
+            navbar.classList.remove('scrolled');
         }
 
         lastScroll = currentScroll;
@@ -167,127 +173,89 @@ function initNavbarScroll() {
 }
 
 // ============================================
-// PARALLAX EFFECT
-// ============================================
-
-function initParallax() {
-    const hero = document.querySelector('.hero');
-    if (!hero) return;
-
-    window.addEventListener('scroll', () => {
-        const scrolled = window.pageYOffset;
-        const rate = scrolled * 0.5;
-
-        hero.style.backgroundPositionY = rate + 'px';
-    });
-}
-
-// ============================================
-// GALLERY HOVER EFFECTS
-// ============================================
-
-function initGalleryHover() {
-    document.querySelectorAll('.gallery-item').forEach(item => {
-        item.addEventListener('mouseenter', function() {
-            this.style.zIndex = '10';
-        });
-
-        item.addEventListener('mouseleave', function() {
-            this.style.zIndex = '1';
-        });
-    });
-}
-
-// ============================================
 // SMOOTH SCROLL FOR NAV LINKS
 // ============================================
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-            const offsetTop = target.offsetTop - 80;
-            window.scrollTo({
-                top: offsetTop,
-                behavior: 'smooth'
-            });
+function initSmoothScroll() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const target = document.querySelector(targetId);
+
+            if (target) {
+                const offsetTop = target.offsetTop - 80;
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+}
+
+// ============================================
+// STAT RINGS ANIMATION
+// ============================================
+
+function initStatRings() {
+    const statRings = document.querySelectorAll('.stat-ring');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const progressCircle = entry.target.querySelector('.stat-progress');
+                if (progressCircle) {
+                    progressCircle.style.strokeDashoffset = getComputedStyle(progressCircle).strokeDashoffset;
+                }
+            }
+        });
+    }, { threshold: 0.5 });
+
+    statRings.forEach(ring => observer.observe(ring));
+}
+
+// ============================================
+// ACTIVE NAV LINK HIGHLIGHTING
+// ============================================
+
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-links a');
+
+window.addEventListener('scroll', () => {
+    let current = '';
+
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        const sectionHeight = section.offsetHeight;
+
+        if (window.pageYOffset >= sectionTop && window.pageYOffset < sectionTop + sectionHeight) {
+            current = section.getAttribute('id');
+        }
+    });
+
+    navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${current}`) {
+            link.classList.add('active');
         }
     });
 });
-
-// ============================================
-// TYPING EFFECT FOR HERO (Optional)
-// ============================================
-
-function typeWriter(element, text, speed = 50) {
-    let i = 0;
-    element.innerHTML = '';
-
-    function type() {
-        if (i < text.length) {
-            element.innerHTML += text.charAt(i);
-            i++;
-            setTimeout(type, speed);
-        }
-    }
-    type();
-}
-
-// ============================================
-// NUMBER COUNTER ANIMATION
-// ============================================
-
-function animateNumbers() {
-    const numbers = document.querySelectorAll('.stat-number');
-
-    numbers.forEach(num => {
-        const target = parseInt(num.textContent);
-        const suffix = num.textContent.replace(/[0-9]/g, '');
-        let current = 0;
-        const increment = target / 50;
-
-        const counter = setInterval(() => {
-            current += increment;
-            if (current >= target) {
-                num.textContent = target + suffix;
-                clearInterval(counter);
-            } else {
-                num.textContent = Math.floor(current) + suffix;
-            }
-        }, 30);
-    });
-}
-
-// Trigger number animation when stats are visible
-const statsObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            animateNumbers();
-            statsObserver.unobserve(entry.target);
-        }
-    });
-}, { threshold: 0.5 });
-
-const heroStats = document.querySelector('.hero-stats');
-if (heroStats) {
-    statsObserver.observe(heroStats);
-}
 
 // ============================================
 // CONSOLE EASTER EGG
 // ============================================
 
 console.log(`
-%c🌌 UnRevealed Universe 🌌
-%cTeam BomBSquad
+%c UnRevealed Universe
+%c Team BomBSquad | Physics Project 2025
 %c
 95% of our universe is invisible.
-You're exploring the mysteries of Dark Matter, Black Holes, and the Big Bang.
+Explore Dark Matter, Black Holes, and the Big Bang.
 
 "We are made of star stuff." - Carl Sagan
 `,
-'color: #8b5cf6; font-size: 24px; font-weight: bold;',
-'color: #06b6d4; font-size: 14px;',
-'color: #94a3b8; font-size: 12px;'
+'color: #7c3aed; font-size: 20px; font-weight: bold; font-family: monospace;',
+'color: #06b6d4; font-size: 12px; font-family: monospace;',
+'color: #94a3b8; font-size: 11px; font-family: monospace;'
 );

@@ -6,13 +6,19 @@ title: "UnRevealed Universe"
 <!-- Navigation -->
 <nav class="navbar">
     <div class="nav-container">
-        <a href="#" class="nav-logo">UnRevealed Universe</a>
-        <ul class="nav-links">
+        <a href="#" class="nav-logo">
+            <span class="logo-icon">&#9733;</span>
+            UnRevealed Universe
+        </a>
+        <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Toggle menu">
+            <span class="hamburger"></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#video">Video</a></li>
             <li><a href="#topics">Topics</a></li>
             <li><a href="#details">Deep Dive</a></li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#timeline">Timeline</a></li>
-            <li><a href="#facts">Facts</a></li>
             <li><a href="#references">References</a></li>
             <li><a href="#team">Team</a></li>
         </ul>
@@ -20,33 +26,120 @@ title: "UnRevealed Universe"
 </nav>
 
 <!-- Hero Section -->
-<section class="hero nebula-bg">
+<section class="hero">
+    <div class="hero-background">
+        <div class="hero-gradient"></div>
+        <div class="hero-particles"></div>
+    </div>
     <div class="hero-content">
-        <span class="hero-badge">Physics Poster Project 2025</span>
-        <h1>UnRevealed Universe</h1>
+        <span class="hero-badge">
+            <span class="badge-dot"></span>
+            Physics Poster Project 2025
+        </span>
+        <h1 class="hero-title">
+            <span class="title-line">UnRevealed</span>
+            <span class="title-line title-accent">Universe</span>
+        </h1>
         <p class="hero-subtitle">
-            Journey through the cosmos to discover Dark Matter, Black Holes, and the Big Bang.
-            <strong>95% of our universe remains invisible</strong> - explore the mysteries that shape existence.
+            Discover the invisible forces that shape our cosmos. From the enigmatic dark matter
+            to the violent birth of spacetime, explore what lies beyond human perception.
         </p>
 
         <div class="hero-stats">
             <div class="stat-item">
-                <div class="stat-number">68%</div>
+                <div class="stat-ring">
+                    <svg viewBox="0 0 100 100">
+                        <circle cx="50" cy="50" r="45" class="stat-bg"/>
+                        <circle cx="50" cy="50" r="45" class="stat-progress" style="--progress: 68"/>
+                    </svg>
+                    <div class="stat-content">
+                        <div class="stat-number">68<span>%</span></div>
+                    </div>
+                </div>
                 <div class="stat-label">Dark Energy</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number">27%</div>
+                <div class="stat-ring">
+                    <svg viewBox="0 0 100 100">
+                        <circle cx="50" cy="50" r="45" class="stat-bg"/>
+                        <circle cx="50" cy="50" r="45" class="stat-progress" style="--progress: 27"/>
+                    </svg>
+                    <div class="stat-content">
+                        <div class="stat-number">27<span>%</span></div>
+                    </div>
+                </div>
                 <div class="stat-label">Dark Matter</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number">5%</div>
+                <div class="stat-ring">
+                    <svg viewBox="0 0 100 100">
+                        <circle cx="50" cy="50" r="45" class="stat-bg"/>
+                        <circle cx="50" cy="50" r="45" class="stat-progress" style="--progress: 5"/>
+                    </svg>
+                    <div class="stat-content">
+                        <div class="stat-number">5<span>%</span></div>
+                    </div>
+                </div>
                 <div class="stat-label">Visible Matter</div>
             </div>
         </div>
+
+        <a href="#video" class="hero-cta">
+            <span>Watch Documentary</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+        </a>
     </div>
 
     <div class="scroll-indicator">
-        <span></span>
+        <div class="mouse">
+            <div class="wheel"></div>
+        </div>
+        <span>Scroll to explore</span>
+    </div>
+</section>
+
+<!-- Video Section -->
+<section id="video" class="section video-section">
+    <div class="section-container">
+        <div class="section-header">
+            <span class="section-tag">Documentary</span>
+            <h2>The Invisible Universe</h2>
+            <p>A visual journey through the mysteries of dark matter, black holes, and the Big Bang</p>
+        </div>
+
+        <div class="video-wrapper">
+            <div class="video-frame">
+                <video controls poster="{{ '/images/scientific/blackhole_m87.jpg' | relative_url }}" preload="metadata">
+                    <source src="{{ '/assets/video/The_Invisible_Universe.mp4' | relative_url }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="video-info">
+                <div class="video-meta">
+                    <span class="meta-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        Documentary
+                    </span>
+                    <span class="meta-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                            <path d="M2 17l10 5 10-5"></path>
+                            <path d="M2 12l10 5 10-5"></path>
+                        </svg>
+                        Team BomBSquad
+                    </span>
+                </div>
+                <p class="video-description">
+                    Explore the hidden 95% of our universe through stunning visuals and expert explanations.
+                    This documentary covers the groundbreaking discoveries in cosmology and astrophysics.
+                </p>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -54,6 +147,7 @@ title: "UnRevealed Universe"
 <section id="topics" class="section">
     <div class="section-container">
         <div class="section-header">
+            <span class="section-tag">Overview</span>
             <h2>Explore The Cosmos</h2>
             <p>Four pillars of cosmic mystery that reveal the invisible architecture of our universe</p>
         </div>
@@ -107,9 +201,10 @@ title: "UnRevealed Universe"
 </section>
 
 <!-- Detailed Topics Section -->
-<section id="details" class="section nebula-bg">
+<section id="details" class="section section-dark">
     <div class="section-container">
         <div class="section-header">
+            <span class="section-tag">In-Depth</span>
             <h2>Deep Dive Into The Cosmos</h2>
             <p>Comprehensive explanations of each cosmic phenomenon</p>
         </div>
@@ -300,6 +395,7 @@ title: "UnRevealed Universe"
 <section id="gallery" class="section">
     <div class="section-container">
         <div class="section-header">
+            <span class="section-tag">Gallery</span>
             <h2>Scientific Image Gallery</h2>
             <p>12 high-resolution images from NASA, ESA, Chandra X-ray Observatory & Event Horizon Telescope</p>
         </div>
@@ -417,9 +513,10 @@ title: "UnRevealed Universe"
 </section>
 
 <!-- Writeup Cards Section -->
-<section id="writeups" class="section nebula-bg">
+<section id="writeups" class="section section-dark">
     <div class="section-container">
         <div class="section-header">
+            <span class="section-tag">Writeups</span>
             <h2>Poster Writeup Cards</h2>
             <p>Handcrafted visual caption cards for each topic</p>
         </div>
@@ -480,6 +577,7 @@ title: "UnRevealed Universe"
 <section id="timeline" class="section">
     <div class="section-container">
         <div class="section-header">
+            <span class="section-tag">History</span>
             <h2>Cosmic Timeline</h2>
             <p>From the Big Bang to the present - 13.8 billion years of cosmic evolution</p>
         </div>
@@ -543,9 +641,10 @@ title: "UnRevealed Universe"
 </section>
 
 <!-- Key Facts Section -->
-<section id="facts" class="section nebula-bg">
+<section id="facts" class="section section-dark">
     <div class="section-container">
         <div class="section-header">
+            <span class="section-tag">Data</span>
             <h2>Key Facts</h2>
             <p>Essential numbers and discoveries about the invisible universe</p>
         </div>
@@ -594,6 +693,7 @@ title: "UnRevealed Universe"
 <section id="references" class="section">
     <div class="section-container">
         <div class="section-header">
+            <span class="section-tag">Sources</span>
             <h2>Scientific References</h2>
             <p>Primary sources and academic papers for further reading</p>
         </div>
@@ -651,6 +751,7 @@ title: "UnRevealed Universe"
 <section id="team" class="section team-section">
     <div class="section-container">
         <div class="section-header">
+            <span class="section-tag">Credits</span>
             <div class="team-name-badge">Team BomBSquad</div>
             <h2>Meet The Team</h2>
             <p>The minds behind the UnRevealed Universe project</p>
