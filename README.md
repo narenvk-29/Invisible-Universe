@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Invisible Universe Poster - Complete Resource Summary
 
 ## 📁 All Files Ready (10 files total)
@@ -51,3 +52,6 @@
 ✅ Unified "Invisible Universe" theme
 
 **Everything ready for your physics poster!** 🚀
+=======
+# Invisible-Universe
+>>>>>>> e954dedf01a7a9be890d083e5093de90b2f47f23
