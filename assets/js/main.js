@@ -247,7 +247,7 @@ window.addEventListener('scroll', () => {
 // ============================================
 
 console.log(`
-%c UnRevealed Universe
+%c Invisible Universe
 %c Team BomBSquad | Physics Project 2025
 %c
 95% of our universe is invisible.
