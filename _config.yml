@@ -1,0 +1,24 @@
+# Site settings
+title: "UnRevealed Universe"
+description: "Explore the mysteries of Dark Matter, Black Holes & The Big Bang - 95% of our universe remains invisible"
+url: "https://narenvk-29.github.io"
+baseurl: "/Invisible-Universe"
+
+# Team info
+team_name: "BomBSquad"
+team_members:
+  - name: "Harsha N"
+  - name: "Hemanth Kumar KP"
+  - name: "Mithun Gowda B"
+  - name: "Naren V"
+  - name: "Nevil D'Souza"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from build
+exclude:
+  - README.md
+  - docs/
+  - "*.zip"

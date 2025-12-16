@@ -8,10 +8,65 @@
 ---
 
 ## 📋 Table of Contents
-1. [Dark Matter Evidence Images](#dark-matter-evidence)
-2. [Big Bang Theory Images](#big-bang-theory)
-3. [Galaxy Clusters & X-ray Observations](#galaxy-clusters)
-4. [Complete Reference List](#references)
+1. [Black Holes - Cosmic Gravity Wells](#black-holes)
+2. [Dark Matter Evidence Images](#dark-matter-evidence)
+3. [Big Bang Theory Images](#big-bang-theory)
+4. [Galaxy Clusters & X-ray Observations](#galaxy-clusters)
+5. [Complete Reference List](#references)
+
+---
+
+## 🕳️ BLACK HOLES - Cosmic Gravity Wells
+
+### 0. **Black Holes - The Ultimate Cosmic Mystery**
+
+![Black Hole M87](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/scientific/blackhole_m87.jpg)
+
+**📍 Poster Placement:** Featured section - Opening visual or central dramatic element
+
+**🎯 Key Content for Poster:**
+- Regions of spacetime with extreme gravitational pull
+- Nothing can escape - not even light
+- Form from the collapse of massive stars
+- Event horizon marks the point of no return
+- Central singularity where physics breaks down
+
+**📝 Poster Writeup:**
+
+![Writeup - Black Hole](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/writeups/writeup_blackhole.jpg)
+
+> *"Black holes are regions of spacetime where gravity is so strong that nothing, not even light, can escape. They form from the collapse of massive stars."*
+
+**📊 Detailed Scientific Explanation:**
+
+Black holes represent one of the most fascinating and extreme phenomena in the universe. They are regions where spacetime is curved so strongly that nothing within a certain boundary—the event horizon—can escape.
+
+**Formation:**
+- **Stellar Black Holes:** Form when massive stars (>25 solar masses) exhaust their nuclear fuel and collapse
+- **Supermassive Black Holes:** Found at centers of galaxies, containing millions to billions of solar masses
+- **Intermediate Black Holes:** Bridge between stellar and supermassive, less commonly observed
+- **Primordial Black Holes:** Hypothetical, may have formed in the early universe
+
+**Key Properties:**
+- **Event Horizon:** The boundary beyond which escape is impossible; radius = 2GM/c² (Schwarzschild radius)
+- **Singularity:** Central point of theoretically infinite density where known physics breaks down
+- **No Hair Theorem:** Black holes characterized by only three properties: mass, spin, angular momentum
+- **Hawking Radiation:** Theoretical quantum effect causing black holes to slowly evaporate
+
+**Observable Evidence:**
+- **Gravitational Waves:** LIGO/Virgo detected merging black holes (Nobel Prize 2017)
+- **Event Horizon Telescope:** First image of M87* black hole shadow (2019)
+- **X-ray Binaries:** Accretion disks around stellar black holes
+- **Stellar Orbits:** Stars orbiting Sgr A* at Milky Way center (Nobel Prize 2020)
+
+**Connection to Dark Matter:**
+While black holes are not dark matter (they're made of collapsed baryonic matter), primordial black holes remain a candidate for some fraction of dark matter. The study of black holes also reveals how gravity behaves in extreme conditions, providing insights into the gravitational effects we attribute to dark matter.
+
+**📚 References:**
+- Event Horizon Telescope Collaboration (2019). "First M87 Event Horizon Telescope Results." *The Astrophysical Journal Letters*, 875(1), L1-L6.
+- Abbott, B. P., et al. (2016). "Observation of Gravitational Waves from a Binary Black Hole Merger." *Physical Review Letters*, 116(6), 061102.
+- Hawking, S. W. (1974). "Black hole explosions?" *Nature*, 248(5443), 30-31.
+- NASA Black Holes: https://science.nasa.gov/astrophysics/focus-areas/black-holes
 
 ---
 
@@ -19,7 +74,7 @@
 
 ### 1. **Bullet Cluster - The Smoking Gun of Dark Matter**
 
-![Bullet Cluster Composite](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/bullet_cluster_composite.jpg)
+![Bullet Cluster Composite](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/scientific/bullet_cluster_composite.jpg)
 
 **📍 Poster Placement:** Top-left quadrant, featured as primary dark matter evidence
 
@@ -28,6 +83,12 @@
 - **Pink regions:** Hot X-ray emitting gas (visible matter)
 - **Blue regions:** Dark matter distribution mapped via gravitational lensing
 - **Significance:** Dark matter passed through collision while gas slowed down - direct evidence of dark matter's existence
+
+**📝 Poster Writeup:**
+
+![Writeup - Bullet Cluster](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/writeups/writeup_1_bullet_cluster.jpg)
+
+> *"The Bullet Cluster (1E 0657-56) represents one of the most compelling pieces of evidence for dark matter's existence. This system consists of two colliding galaxy clusters located approximately 3.7 billion light-years from Earth in the constellation Carina."*
 
 **📊 Detailed Scientific Explanation:**
 
@@ -58,7 +119,7 @@ This observation rules out alternative theories like MOND (Modified Newtonian Dy
 
 ### 2. **Bullet Cluster - Chandra X-ray Close-up**
 
-![Bullet Cluster Dark Matter](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/bullet_cluster_dark_matter.png)
+![Bullet Cluster Dark Matter](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/scientific/bullet_cluster_dark_matter.png)
 
 **📍 Poster Placement:** Adjacent to composite image, showing X-ray detail
 
@@ -67,6 +128,12 @@ This observation rules out alternative theories like MOND (Modified Newtonian Dy
 - Shows shock waves and temperature variations in hot gas
 - Temperature: 70-100 million degrees Celsius
 - Perfect complement to the composite view
+
+**📝 Poster Writeup:**
+
+![Writeup - Chandra X-ray](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/writeups/writeup_2_xray.jpg)
+
+> *"This Chandra X-ray image reveals the intricate structure of the hot intracluster medium (ICM) in unprecedented detail. The image captures X-ray emissions in the 0.5-7 keV energy range, corresponding to temperatures of tens of millions of degrees."*
 
 **📊 Detailed Scientific Explanation:**
 
@@ -92,7 +159,7 @@ This Chandra X-ray image reveals the intricate structure of the hot intracluster
 
 ### 3. **Dark Matter Clues - NASA Infographic**
 
-![Dark Matter Clues](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/dark_matter_clues.png)
+![Dark Matter Clues](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/scientific/dark_matter_clues.png)
 
 **📍 Poster Placement:** Center-left section, educational panel
 
@@ -101,6 +168,12 @@ This Chandra X-ray image reveals the intricate structure of the hot intracluster
 - Shows gravitational lensing, galaxy rotation, and cluster dynamics
 - Excellent for explaining "how we know dark matter exists"
 - Black background perfect for poster aesthetics
+
+**📝 Poster Writeup:**
+
+![Writeup - Dark Matter Clues](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/writeups/writeup_3_dark_matter_clues.jpg)
+
+> *"This NASA educational graphic illustrates the primary observational evidence for dark matter through multiple independent methods."*
 
 **📊 Detailed Scientific Explanation:**
 
@@ -141,7 +214,7 @@ This NASA educational graphic illustrates the primary observational evidence for
 
 ### 4. **Dark Matter Infographic - Composition & Properties**
 
-![Dark Matter Infographic](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/dark_matter_infographic.png)
+![Dark Matter Infographic](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/scientific/dark_matter_infographic.png)
 
 **📍 Poster Placement:** Right side panel, universe composition section
 
@@ -150,6 +223,12 @@ This NASA educational graphic illustrates the primary observational evidence for
 - Properties of dark matter (invisible, doesn't emit light, only gravity)
 - Leading candidates: WIMPs, Axions, Sterile Neutrinos
 - Timeline of dark matter discovery and research
+
+**📝 Poster Writeup:**
+
+![Writeup - Dark Matter Infographic](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/writeups/writeup_4_infographic.jpg)
+
+> *"Universe composition: 68% Dark Energy, 27% Dark Matter, 5% Normal Matter. Properties of dark matter (invisible, doesn't emit light, only gravity). Leading candidates: WIMPs, Axions, Sterile Neutrinos. Timeline of dark matter discovery and research."*
 
 **📊 Detailed Scientific Explanation:**
 
@@ -200,7 +279,7 @@ This NASA educational graphic illustrates the primary observational evidence for
 
 ### 5. **Gravitational Lensing Diagram**
 
-![Gravitational Lensing](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/lensing_diagram_dark.png)
+![Gravitational Lensing](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/scientific/lensing_diagram_dark.png)
 
 **📍 Poster Placement:** Lower-left quadrant, explaining detection method
 
@@ -209,6 +288,12 @@ This NASA educational graphic illustrates the primary observational evidence for
 - Einstein's General Relativity in action
 - Creates multiple images, arcs, and Einstein rings
 - Primary method for mapping dark matter distribution
+
+**📝 Poster Writeup:**
+
+![Writeup - Gravitational Lensing](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/writeups/writeup_5_lensing.jpg)
+
+> *"Gravitational lensing is the bending of light by massive objects, predicted by Einstein's General Theory of Relativity (1915) and first confirmed during the 1919 solar eclipse."*
 
 **📊 Detailed Scientific Explanation:**
 
@@ -260,7 +345,7 @@ Gravitational lensing is the bending of light by massive objects, predicted by E
 
 ### 6. **Galaxy Collision Diagram**
 
-![Collision Diagram](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/collision_diagram_dark.png)
+![Collision Diagram](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/scientific/collision_diagram_dark.png)
 
 **📍 Poster Placement:** Center panel, explaining cluster collision physics
 
@@ -269,6 +354,12 @@ Gravitational lensing is the bending of light by massive objects, predicted by E
 - Shows separation of dark matter (blue) from gas (pink)
 - Explains ram-pressure stripping
 - Complements Bullet Cluster observations
+
+**📝 Poster Writeup:**
+
+![Writeup - Galaxy Collision](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/writeups/writeup_6_collision.jpg)
+
+> *"This diagram illustrates the complex physics of galaxy cluster mergers, which provide unique laboratories for studying dark matter properties."*
 
 **📊 Detailed Scientific Explanation:**
 
@@ -337,7 +428,7 @@ This diagram illustrates the complex physics of galaxy cluster mergers, which pr
 
 ### 7. **Big Bang Timeline - From Singularity to Present**
 
-![Big Bang Timeline](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/bigbang_timeline_dark.png)
+![Big Bang Timeline](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/scientific/bigbang_timeline_dark.png)
 
 **📍 Poster Placement:** Top-right quadrant, showing cosmic evolution
 
@@ -346,6 +437,12 @@ This diagram illustrates the complex physics of galaxy cluster mergers, which pr
 - Key epochs: Planck Era, Inflation, Nucleosynthesis, Recombination
 - Temperature and size evolution
 - Formation of first atoms, stars, and galaxies
+
+**📝 Poster Writeup:**
+
+![Writeup - Big Bang Timeline](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/writeups/writeup_7_bigbang.jpg)
+
+> *"Complete timeline from 10⁻⁴³ seconds to 13.8 billion years. Key epochs: Planck Era, Inflation, Nucleosynthesis, Recombination. Temperature and size evolution. Formation of first atoms, stars, and galaxies."*
 
 **📊 Detailed Scientific Explanation:**
 
@@ -454,7 +551,7 @@ This diagram illustrates the complex physics of galaxy cluster mergers, which pr
 
 ### 8. **Cosmic Microwave Background - Planck Map**
 
-![CMB Planck Map](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/cmb_planck_map.png)
+![CMB Planck Map](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/scientific/cmb_planck_map.png)
 
 **📍 Poster Placement:** Center-top, showing baby picture of universe
 
@@ -463,6 +560,12 @@ This diagram illustrates the complex physics of galaxy cluster mergers, which pr
 - Variations of only ±200 microKelvin around 2.725 K
 - Seeds of all cosmic structure (galaxies, clusters, voids)
 - Measured by Planck satellite with unprecedented precision
+
+**📝 Poster Writeup:**
+
+![Writeup - CMB](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/writeups/writeup_8_cmb.jpg)
+
+> *"The Cosmic Microwave Background (CMB) is the oldest light in the universe, released when the universe became transparent at recombination (380,000 years after the Big Bang)."*
 
 **📊 Detailed Scientific Explanation:**
 
@@ -571,7 +674,7 @@ From CMB power spectrum analysis:
 
 ### 9. **Hubble Ultra Deep Field - Looking Back in Time**
 
-![Hubble Ultra Deep Field](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/hubble_ultra_deep_field.png)
+![Hubble Ultra Deep Field](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/scientific/hubble_ultra_deep_field.png)
 
 **📍 Poster Placement:** Right side, showing galaxy evolution
 
@@ -581,6 +684,12 @@ From CMB power spectrum analysis:
 - Shows galaxy evolution from early universe to present
 - Each galaxy contains billions of stars
 - Demonstrates universe's vastness and age
+
+**📝 Poster Writeup:**
+
+![Writeup - Hubble Deep Field](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/writeups/writeup_9_hudf.jpg)
+
+> *"The Hubble Ultra Deep Field (HUDF) is one of humanity's most profound images, revealing the deep universe in unprecedented detail."*
 
 **📊 Detailed Scientific Explanation:**
 
@@ -692,7 +801,7 @@ The Hubble Ultra Deep Field (HUDF) is one of humanity's most profound images, re
 
 ### 10. **Perseus Cluster - X-ray Powerhouse**
 
-![Perseus Cluster X-ray](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/perseus_cluster_xray.png)
+![Perseus Cluster X-ray](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/scientific/perseus_cluster_xray.png)
 
 **📍 Poster Placement:** Bottom-left, showing active galaxy cluster
 
@@ -703,6 +812,12 @@ The Hubble Ultra Deep Field (HUDF) is one of humanity's most profound images, re
 - Contains thousands of galaxies
 - Distance: 240 million light-years
 
+**📝 Poster Writeup:**
+
+![Writeup - Perseus Cluster](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/writeups/writeup_10_perseus.jpg)
+
+> *"The Perseus Cluster (Abell 426) is one of the most massive and X-ray luminous galaxy clusters in the nearby universe, making it an ideal laboratory for studying cluster physics and AGN feedback."*
+
 **📊 Detailed Scientific Explanation:**
 
 The Perseus Cluster (Abell 426) is one of the most massive and X-ray luminous galaxy clusters in the nearby universe, making it an ideal laboratory for studying cluster physics and AGN feedback.
@@ -712,7 +827,7 @@ The Perseus Cluster (Abell 426) is one of the most massive and X-ray luminous ga
 **Basic Parameters:**
 - Distance: 73 Mpc (240 million light-years)
 - Redshift: z = 0.0179
-- Mass: ~10¹⁵ M☁E(within r₁E�E₀)
+- Mass: ~10¹⁵ M☁E(within r₁E�E₀)
 - Velocity dispersion: ~1,300 km/s
 - Number of galaxies: >1,000 confirmed members
 - X-ray luminosity: 6 ÁE10⁴⁴ erg/s (0.5-2 keV)
@@ -784,7 +899,7 @@ The Perseus Cluster (Abell 426) is one of the most massive and X-ray luminous ga
 - NFW profile confirmed
 
 **2. Cosmology:**
-- Cluster mass function constrains ρE�� and Ωm
+- Cluster mass function constrains ρE�� and Ωm
 - Gas fraction ↁEbaryon fraction ↁEcosmological parameters
 - SZ effect measurements
 
@@ -809,7 +924,7 @@ The Perseus Cluster (Abell 426) is one of the most massive and X-ray luminous ga
 
 ### 11. **Chandra Galaxy Clusters Composite**
 
-![Chandra Galaxy Clusters](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/chandra_galaxy_clusters.png)
+![Chandra Galaxy Clusters](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/scientific/chandra_galaxy_clusters.png)
 
 **📍 Poster Placement:** Bottom-right, showing multiple cluster examples
 
@@ -818,6 +933,12 @@ The Perseus Cluster (Abell 426) is one of the most massive and X-ray luminous ga
 - Shows diversity of cluster morphologies
 - Demonstrates X-ray astronomy capabilities
 - Each cluster tells different story about cosmic evolution
+
+**📝 Poster Writeup:**
+
+![Writeup - Chandra Clusters](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/images/writeups/writeup_11_chandra.jpg)
+
+> *"This composite image showcases multiple galaxy clusters observed by NASA's Chandra X-ray Observatory, demonstrating the diversity of these massive cosmic structures."*
 
 **📊 Detailed Scientific Explanation:**
 
@@ -886,7 +1007,7 @@ This composite image showcases multiple galaxy clusters observed by NASA's Chand
 **Scientific Applications:**
 
 **1. Cosmology:**
-- Cluster abundance vs. redshift ↁEρE��, Ωm
+- Cluster abundance vs. redshift ↁEρE��, Ωm
 - Gas fraction ↁEbaryon fraction ↁEΩb/Ωm
 - Distances via SZ effect + X-ray ↁEH₀
 - Dark energy constraints from cluster evolution
@@ -973,19 +1094,21 @@ This composite image showcases multiple galaxy clusters observed by NASA's Chand
 
 ## 🎨 Poster Design Notes
 
-**Final Image Count: 11 High-Quality Images**
+**Final Image Count: 12 High-Quality Scientific Images + 12 Writeup Cards**
 
 **Color Scheme:**
 - Black backgrounds throughout (perfect for printing)
 - High contrast text (white, cyan, magenta)
-- Color-coded sections (blue for dark matter, red/orange for Big Bang)
+- Color-coded sections (blue for dark matter, red/orange for Big Bang, purple for black holes)
 
 **Layout Suggestions:**
 1. **Title Banner:** Top center with dramatic font
-2. **Dark Matter Section:** Left half of poster (6 images)
-3. **Big Bang Section:** Right half of poster (3 images)
-4. **Galaxy Clusters:** Bottom section (2 images)
-5. **Central Feature:** CMB map or Bullet Cluster as focal point
+2. **Black Hole Section:** Opening feature - dramatic central or top element
+3. **Dark Matter Section:** Left half of poster (6 images)
+4. **Big Bang Section:** Right half of poster (3 images)
+5. **Galaxy Clusters:** Bottom section (2 images)
+6. **Central Feature:** M87 Black Hole or Bullet Cluster as focal point
+7. **Writeup Cards:** Place alongside each scientific image for context
 
 **Image Quality:**
 - All images are high-resolution PNG/JPG
@@ -998,10 +1121,13 @@ This composite image showcases multiple galaxy clusters observed by NASA's Chand
 - Timeline with key discoveries
 - Scannable references for deeper learning
 
+**Writeup Cards Included:**
+Each scientific image now includes a handcrafted writeup card with key facts for the poster. These can be placed as visual callouts or captions.
+
 ---
 
-*Document compiled: December 16, 2025*  
-*Total Images: 11 premium scientific visualizations*  
-*All sources verified and cited*  
+*Document compiled: December 16, 2025*
+*Total Images: 12 premium scientific visualizations + 12 writeup cards*
+*All sources verified and cited*
 *Ready for professional poster production* 🌌✨
 
