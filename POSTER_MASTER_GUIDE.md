@@ -19,7 +19,7 @@
 
 ### 1. **Bullet Cluster - The Smoking Gun of Dark Matter**
 
-![Bullet Cluster Composite](https://raw.githubusercontent.com/narenvk/Invisible-Universe/main/bullet_cluster_composite.jpg)
+![Bullet Cluster Composite](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/bullet_cluster_composite.jpg)
 
 **📍 Poster Placement:** Top-left quadrant, featured as primary dark matter evidence
 
@@ -58,7 +58,7 @@ This observation rules out alternative theories like MOND (Modified Newtonian Dy
 
 ### 2. **Bullet Cluster - Chandra X-ray Close-up**
 
-![Bullet Cluster Dark Matter](https://raw.githubusercontent.com/narenvk/Invisible-Universe/main/bullet_cluster_dark_matter.png)
+![Bullet Cluster Dark Matter](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/bullet_cluster_dark_matter.png)
 
 **📍 Poster Placement:** Adjacent to composite image, showing X-ray detail
 
@@ -92,7 +92,7 @@ This Chandra X-ray image reveals the intricate structure of the hot intracluster
 
 ### 3. **Dark Matter Clues - NASA Infographic**
 
-![Dark Matter Clues](https://raw.githubusercontent.com/narenvk/Invisible-Universe/main/dark_matter_clues.png)
+![Dark Matter Clues](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/dark_matter_clues.png)
 
 **📍 Poster Placement:** Center-left section, educational panel
 
@@ -141,7 +141,7 @@ This NASA educational graphic illustrates the primary observational evidence for
 
 ### 4. **Dark Matter Infographic - Composition & Properties**
 
-![Dark Matter Infographic](https://raw.githubusercontent.com/narenvk/Invisible-Universe/main/dark_matter_infographic.png)
+![Dark Matter Infographic](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/dark_matter_infographic.png)
 
 **📍 Poster Placement:** Right side panel, universe composition section
 
@@ -200,7 +200,7 @@ This NASA educational graphic illustrates the primary observational evidence for
 
 ### 5. **Gravitational Lensing Diagram**
 
-![Gravitational Lensing](https://raw.githubusercontent.com/narenvk/Invisible-Universe/main/lensing_diagram_dark.png)
+![Gravitational Lensing](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/lensing_diagram_dark.png)
 
 **📍 Poster Placement:** Lower-left quadrant, explaining detection method
 
@@ -225,7 +225,7 @@ Gravitational lensing is the bending of light by massive objects, predicted by E
 **1. Strong Lensing:**
 - Creates dramatic visual effects: Einstein rings, arcs, multiple images
 - Occurs when source, lens, and observer are nearly aligned
-- Einstein radius: θ_E = √(4GM/c² × D_LS/(D_L × D_S))
+- Einstein radius: θ_E = ∁E4GM/c² ÁED_LS/(D_L ÁED_S))
 - Famous examples: Einstein Cross, Cosmic Horseshoe
 
 **2. Weak Lensing:**
@@ -260,7 +260,7 @@ Gravitational lensing is the bending of light by massive objects, predicted by E
 
 ### 6. **Galaxy Collision Diagram**
 
-![Collision Diagram](https://raw.githubusercontent.com/narenvk/Invisible-Universe/main/collision_diagram_dark.png)
+![Collision Diagram](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/collision_diagram_dark.png)
 
 **📍 Poster Placement:** Center panel, explaining cluster collision physics
 
@@ -279,7 +279,7 @@ This diagram illustrates the complex physics of galaxy cluster mergers, which pr
 **1. Dark Matter (Blue):**
 - Comprises 80-85% of total cluster mass
 - Collisionless - passes through without interaction
-- Self-interaction cross-section: σ/m < 1 cm²/g (very small)
+- Self-interaction cross-section: ρEm < 1 cm²/g (very small)
 - Maintains velocity through collision
 - Traced via gravitational lensing
 
@@ -337,7 +337,7 @@ This diagram illustrates the complex physics of galaxy cluster mergers, which pr
 
 ### 7. **Big Bang Timeline - From Singularity to Present**
 
-![Big Bang Timeline](https://raw.githubusercontent.com/narenvk/Invisible-Universe/main/bigbang_timeline_dark.png)
+![Big Bang Timeline](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/bigbang_timeline_dark.png)
 
 **📍 Poster Placement:** Top-right quadrant, showing cosmic evolution
 
@@ -354,7 +354,7 @@ This diagram illustrates the complex physics of galaxy cluster mergers, which pr
 - All four fundamental forces unified
 - Quantum gravity effects dominate
 - Current physics breaks down - need theory of quantum gravity
-- Size: smaller than Planck length (1.6 × 10⁻³⁵ m)
+- Size: smaller than Planck length (1.6 ÁE10⁻³⁵ m)
 
 **Grand Unification Epoch (10⁻⁴³ to 10⁻³⁶ seconds):**
 - Temperature: 10²⁷ to 10³² K
@@ -416,7 +416,7 @@ This diagram illustrates the complex physics of galaxy cluster mergers, which pr
 - Electrons combine with nuclei to form neutral atoms
 - Universe becomes transparent to light
 - CMB photons released - "surface of last scattering"
-- Redshift z ≈ 1100
+- Redshift z ≁E1100
 
 **Dark Ages (380,000 to 150 million years):**
 - Temperature: 60 to 3000 K
@@ -454,7 +454,7 @@ This diagram illustrates the complex physics of galaxy cluster mergers, which pr
 
 ### 8. **Cosmic Microwave Background - Planck Map**
 
-![CMB Planck Map](https://raw.githubusercontent.com/narenvk/Invisible-Universe/main/cmb_planck_map.png)
+![CMB Planck Map](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/cmb_planck_map.png)
 
 **📍 Poster Placement:** Center-top, showing baby picture of universe
 
@@ -508,7 +508,7 @@ From CMB power spectrum analysis:
 - Age of universe: 13.787 ± 0.020 billion years
 - Baryon density: Ωb = 0.0486 ± 0.0010
 - Dark matter density: Ωc = 0.2589 ± 0.0057
-- Dark energy density: ΩΛ = 0.6911 ± 0.0062
+- Dark energy density: Ω΁E= 0.6911 ± 0.0062
 - Curvature: Ωk = 0.0007 ± 0.0019 (flat universe!)
 
 **2. Acoustic Peaks:**
@@ -526,8 +526,8 @@ From CMB power spectrum analysis:
 - Lensing B-modes detected by Planck
 
 **4. Structure Formation:**
-- Overdense regions (red) → galaxies and clusters
-- Underdense regions (blue) → voids
+- Overdense regions (red) ↁEgalaxies and clusters
+- Underdense regions (blue) ↁEvoids
 - Statistical properties match ΛCDM predictions
 - Confirms hierarchical structure formation
 
@@ -571,7 +571,7 @@ From CMB power spectrum analysis:
 
 ### 9. **Hubble Ultra Deep Field - Looking Back in Time**
 
-![Hubble Ultra Deep Field](https://raw.githubusercontent.com/narenvk/Invisible-Universe/main/hubble_ultra_deep_field.png)
+![Hubble Ultra Deep Field](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/hubble_ultra_deep_field.png)
 
 **📍 Poster Placement:** Right side, showing galaxy evolution
 
@@ -635,8 +635,8 @@ The Hubble Ultra Deep Field (HUDF) is one of humanity's most profound images, re
 
 **Galaxy Evolution:**
 - Galaxies grow via mergers and accretion
-- Star formation rate was 10× higher at z ~ 2
-- Morphological evolution: irregular → spiral/elliptical
+- Star formation rate was 10ÁEhigher at z ~ 2
+- Morphological evolution: irregular ↁEspiral/elliptical
 - Downsizing: massive galaxies formed stars earlier
 
 **Cosmic Star Formation History:**
@@ -692,7 +692,7 @@ The Hubble Ultra Deep Field (HUDF) is one of humanity's most profound images, re
 
 ### 10. **Perseus Cluster - X-ray Powerhouse**
 
-![Perseus Cluster X-ray](https://raw.githubusercontent.com/narenvk/Invisible-Universe/main/perseus_cluster_xray.png)
+![Perseus Cluster X-ray](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/perseus_cluster_xray.png)
 
 **📍 Poster Placement:** Bottom-left, showing active galaxy cluster
 
@@ -712,17 +712,17 @@ The Perseus Cluster (Abell 426) is one of the most massive and X-ray luminous ga
 **Basic Parameters:**
 - Distance: 73 Mpc (240 million light-years)
 - Redshift: z = 0.0179
-- Mass: ~10¹⁵ M☉ (within r₅₀₀)
+- Mass: ~10¹⁵ M☁E(within r₁E�E₀)
 - Velocity dispersion: ~1,300 km/s
 - Number of galaxies: >1,000 confirmed members
-- X-ray luminosity: 6 × 10⁴⁴ erg/s (0.5-2 keV)
+- X-ray luminosity: 6 ÁE10⁴⁴ erg/s (0.5-2 keV)
 
 **Central Galaxy NGC 1275:**
 - Type: cD galaxy (central dominant)
 - Also known as Perseus A (radio source)
-- Hosts supermassive black hole: ~3.4 × 10⁸ M☉
+- Hosts supermassive black hole: ~3.4 ÁE10⁸ M☁E
 - Active galactic nucleus (AGN) with radio jets
-- Star formation rate: ~20 M☉/yr (unusual for cluster center)
+- Star formation rate: ~20 M☁Eyr (unusual for cluster center)
 
 **X-ray Observations:**
 
@@ -746,7 +746,7 @@ The Perseus Cluster (Abell 426) is one of the most massive and X-ray luminous ga
 
 **Hot Gas Properties:**
 - Temperature: 5-8 keV (60-90 million K)
-- Mass: ~10¹⁴ M☉ (most of baryonic matter)
+- Mass: ~10¹⁴ M☁E(most of baryonic matter)
 - Metallicity: ~0.3-0.5 solar
 - Cooling time: ~10⁹ years (in center)
 - Emission mechanism: Thermal bremsstrahlung
@@ -754,8 +754,8 @@ The Perseus Cluster (Abell 426) is one of the most massive and X-ray luminous ga
 **AGN Feedback:**
 
 **The Cooling Flow Problem:**
-- Central gas should cool and form stars at ~100 M☉/yr
-- Observations show only ~20 M☉/yr
+- Central gas should cool and form stars at ~100 M☁Eyr
+- Observations show only ~20 M☁Eyr
 - Missing: where is the cooled gas?
 
 **Solution - AGN Heating:**
@@ -779,13 +779,13 @@ The Perseus Cluster (Abell 426) is one of the most massive and X-ray luminous ga
 
 **1. Dark Matter:**
 - X-ray temperature profile traces gravitational potential
-- Combined with galaxy velocities → total mass
+- Combined with galaxy velocities ↁEtotal mass
 - Dark matter fraction: ~85%
 - NFW profile confirmed
 
 **2. Cosmology:**
-- Cluster mass function constrains σ₈ and Ωm
-- Gas fraction → baryon fraction → cosmological parameters
+- Cluster mass function constrains ρE�� and Ωm
+- Gas fraction ↁEbaryon fraction ↁEcosmological parameters
 - SZ effect measurements
 
 **3. Plasma Physics:**
@@ -809,7 +809,7 @@ The Perseus Cluster (Abell 426) is one of the most massive and X-ray luminous ga
 
 ### 11. **Chandra Galaxy Clusters Composite**
 
-![Chandra Galaxy Clusters](https://raw.githubusercontent.com/narenvk/Invisible-Universe/main/chandra_galaxy_clusters.png)
+![Chandra Galaxy Clusters](https://raw.githubusercontent.com/narenvk-29/Invisible-Universe/main/chandra_galaxy_clusters.png)
 
 **📍 Poster Placement:** Bottom-right, showing multiple cluster examples
 
@@ -827,7 +827,7 @@ This composite image showcases multiple galaxy clusters observed by NASA's Chand
 
 **Mission Details:**
 - Launched: July 23, 1999 (Space Shuttle Columbia)
-- Orbit: Highly elliptical, 16,000 × 133,000 km altitude
+- Orbit: Highly elliptical, 16,000 ÁE133,000 km altitude
 - Period: 64 hours
 - Instruments: ACIS (CCDs), HRC (microchannel plates)
 - Mirrors: Nested cylindrical shells, 1.2 m diameter
@@ -844,7 +844,7 @@ This composite image showcases multiple galaxy clusters observed by NASA's Chand
 
 **2. Mass Measurement:**
 - Hydrostatic equilibrium: gravity balances pressure
-- M(r) = -kT(r)r/Gμmp × [d ln ρ/d ln r + d ln T/d ln r]
+- M(r) = -kT(r)r/Gμmp ÁE[d ln ρEd ln r + d ln T/d ln r]
 - Independent of stellar mass-to-light ratio
 - Reveals dark matter distribution
 
@@ -886,9 +886,9 @@ This composite image showcases multiple galaxy clusters observed by NASA's Chand
 **Scientific Applications:**
 
 **1. Cosmology:**
-- Cluster abundance vs. redshift → σ₈, Ωm
-- Gas fraction → baryon fraction → Ωb/Ωm
-- Distances via SZ effect + X-ray → H₀
+- Cluster abundance vs. redshift ↁEρE��, Ωm
+- Gas fraction ↁEbaryon fraction ↁEΩb/Ωm
+- Distances via SZ effect + X-ray ↁEH₀
 - Dark energy constraints from cluster evolution
 
 **2. Structure Formation:**
@@ -1004,3 +1004,4 @@ This composite image showcases multiple galaxy clusters observed by NASA's Chand
 *Total Images: 11 premium scientific visualizations*  
 *All sources verified and cited*  
 *Ready for professional poster production* 🌌✨
+
