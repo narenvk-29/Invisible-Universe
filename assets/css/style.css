@@ -1635,6 +1635,40 @@ body {
     margin-top: 0.5rem;
 }
 
+.pdf-preview-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    background: var(--gradient-aurora);
+    background-size: 200% 100%;
+    border: none;
+    border-radius: 50px;
+    color: var(--star-white);
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 8px 30px var(--glow-purple);
+}
+
+.pdf-preview-btn:hover {
+    background-position: 100% 50%;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 40px var(--glow-purple);
+}
+
+.pdf-preview-btn svg {
+    transition: transform 0.3s ease;
+}
+
+.pdf-preview-btn:hover svg {
+    transform: scale(1.1);
+}
+
 @media (max-width: 1024px) {
     .poster-showcase {
         grid-template-columns: 1fr;
